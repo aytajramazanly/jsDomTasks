@@ -10,6 +10,8 @@ body {
   height: 160px;
   width: 80%;
   background-color: white;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
 }
 
 #lamp button {
@@ -19,18 +21,6 @@ body {
   background-color: #98D7C2;
 }
 
-#lamp .yellow {
-  background-color: #F4E185;
-}
-
-#lamp .blue {
-  background-color: #009DAE;
-}
-
-#lamp .green {
-  background-color: #59981A;
-}
-
-#lamp .red {
-  background-color: #C85250;
+#lamp .native {
+  background-color: white !important;
 }
