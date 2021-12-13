@@ -1,0 +1,36 @@
+body {
+  background-color: #2C272E;
+}
+
+#lamp {
+  margin-top: 12%;
+}
+
+#lamp .box {
+  height: 160px;
+  width: 80%;
+  background-color: white;
+}
+
+#lamp button {
+  height: 30px;
+  width: 80%;
+  border: none;
+  background-color: #98D7C2;
+}
+
+#lamp .yellow {
+  background-color: #F4E185;
+}
+
+#lamp .blue {
+  background-color: #009DAE;
+}
+
+#lamp .green {
+  background-color: #59981A;
+}
+
+#lamp .red {
+  background-color: #C85250;
+}
