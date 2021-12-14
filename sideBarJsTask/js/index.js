@@ -1,17 +1,11 @@
 let btnOpen=document.querySelector(".open")
 let btnClose=document.querySelector(".close")
-btnOpen.addEventListener("click", ()=>{
-    document.querySelector("#side-bar").style.transform="translateX(28%)"
+btnOpen.addEventListener("click", (e)=>{
+    document.querySelector("#side-bar").style.width="22%"
+    e.target.style.display="none"
+    
 })
 btnClose.addEventListener("click",()=>{
-    document.querySelector("#side-bar").style.transform="translateX(-100%)"
+    document.querySelector("#side-bar").style.width="0"
+    document.querySelector(".open").style.display="block"
 })
-
-// let btnOpen=document.querySelector(".open")
-// let btnClose=document.querySelector(".close")
-// btnOpen.addEventListener("click", ()=>{
-//     document.querySelector("#side-bar").style.width="30%"
-// })
-// btnClose.addEventListener("click",()=>{
-//     document.querySelector("#side-bar").style.width="0"
-// })
