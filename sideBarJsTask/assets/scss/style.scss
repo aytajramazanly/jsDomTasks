@@ -1,0 +1,46 @@
+#side-bar{
+    margin-top: 6%;
+    background-color: brown;
+    transform: translateX(-100%);
+    transition: all 1s;
+   a{
+       text-decoration: none;
+       color: black;
+   }
+  
+    .close-button{
+        position: absolute;
+        left: 90%;
+        top: 2%;
+        button{
+            width: 25px;
+            height: 25px;
+            border: none;
+            background-color: brown;
+            color: white;
+            transition: all 0.5s;
+            &:hover{
+                background-color: black;
+            }
+    }
+}
+}
+.open-button{
+    position: absolute;
+    top: 4%;
+    left: 7%;
+    a{
+        color: rgb(68, 68, 68);
+    }
+    button{
+        width: 80px;
+        height: 40px;
+        border: none;
+        background-color: black;
+        color: white;
+        transition: all 0.5s;
+        &:hover{
+            background-color: #C84B31;
+        }
+    }
+}

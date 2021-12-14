@@ -1,0 +1,57 @@
+#side-bar {
+  margin-top: 6%;
+  background-color: brown;
+  -webkit-transform: translateX(-100%);
+          transform: translateX(-100%);
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+#side-bar a {
+  text-decoration: none;
+  color: black;
+}
+
+#side-bar .close-button {
+  position: absolute;
+  left: 90%;
+  top: 2%;
+}
+
+#side-bar .close-button button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  background-color: brown;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+#side-bar .close-button button:hover {
+  background-color: black;
+}
+
+.open-button {
+  position: absolute;
+  top: 4%;
+  left: 7%;
+}
+
+.open-button a {
+  color: #444444;
+}
+
+.open-button button {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: black;
+  color: white;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.open-button button:hover {
+  background-color: #C84B31;
+}
