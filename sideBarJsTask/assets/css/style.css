@@ -3,6 +3,7 @@
   background-color: brown;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
+  position: relative;
   -webkit-transition: all 1s;
   transition: all 1s;
 }
